@@ -6,7 +6,7 @@ from pathlib import Path
 from channels.email import render_email
 from channels.sms import render_sms
 
-CHANNEL_ORDER = ("email", "sms")
+CHANNEL_ORDER = ("email", "sms", "email")
 SCHEMA_PATH = Path(__file__).parent / "schemas" / "shipment-event.json"
 
 
